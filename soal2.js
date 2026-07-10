@@ -49,9 +49,5 @@ function topCategory(transactions){
    return values.sort((a,b) => b.amount - a.amount);
 }
 
-console.log(totalRevenue(transactions));
-console.log(revenueByCategory(transactions));
-console.log(repeatBuyers(transactions));
-console.log(topCategory(transactions));
 
 module.exports = { totalRevenue,revenueByCategory,repeatBuyers,topCategory }
