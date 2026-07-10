@@ -32,8 +32,4 @@ function averageStudentScore(students) {
   );
 }
 
-console.log(studentWithGrade(students));
-console.log(passedStudent(students));
-console.log(averageStudentScore(students));
-
 module.exports = { averageStudentScore,passedStudent,studentWithGrade }
